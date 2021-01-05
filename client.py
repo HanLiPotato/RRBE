@@ -1,7 +1,9 @@
 import os
 import sys
 import time
-sys.path.append(r'C:/Users/10712/Desktop/FTP-master/RRBE_CS')
+#sys.path.append(r'C:/Users/10712/Desktop/FTP-master/RRBE_CS')
+
+sys.path.append(os.path.join(os.path.dirname(__file__), 'RRBE_CS'))
 from ftplib import FTP
 from threading import Thread
 
