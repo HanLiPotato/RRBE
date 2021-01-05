@@ -436,8 +436,8 @@ class MyMainGui(QWidget,Ui_Form):
         self.remoteBrowseRec   = []
         self.pwd               = self.ftp.pwd()
         ### considering Windows / Linux
-        # self.local_pwd = os.getenv('HOME') if os.name == 'posix' else 'D:\\'
-        self.local_pwd = os.getenv('HOME') if os.name == 'posix' else 'C:\\Users\\10712\\Desktop'
+        self.local_pwd = os.getenv('HOME') if os.name == 'posix' else 'D:\\'
+        # self.local_pwd = os.getenv('HOME') if os.name == 'posix' else 'C:\\Users\\10712\\Desktop'
         self.remoteOriginPath  = self.pwd
         self.localOriginPath   = self.local_pwd
         self.localBrowseRec.append(self.local_pwd)
