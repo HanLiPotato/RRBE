@@ -378,7 +378,7 @@ class FtpServerProtocol(threading.Thread):
 
 def server_listener():
     global listen_sock
-    HOST = '127.0.0.1'
+    HOST = '172.24.2.60'
     # HOST='192.168.92.128 '
     PORT=21
     listen_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
