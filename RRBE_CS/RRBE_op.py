@@ -1,5 +1,8 @@
 import sys
-sys.path.append(r'C:/Users/10712/Desktop/FTP-master/RRBE_CS')
+#sys.path.append(r'C:/Users/10712/Desktop/FTP-master/RRBE_CS')
+
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), 'RRBE_CS'))
 
 import encode,decode
 from PIL import Image
